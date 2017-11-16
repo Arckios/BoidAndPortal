@@ -27,13 +27,9 @@ class Portal{
   
   
   void display(){
-       if(++counter > timeLimit){
-      init();
-      counter=0;
-    }
-    
     if(visible){
-      if (isEntry)stroke(0,0,255);
+      if (isEntry)
+      stroke(0,0,255);
       else stroke(255,100,0);
       rect(x,y,w,h);
     }  

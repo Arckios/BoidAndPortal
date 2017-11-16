@@ -33,7 +33,7 @@ void draw() {
 }
 
 // Add a new boid into the System
-void mouseDragged() {
+void mouseClicked() {
   flock.addBoid(new Boid(mouseX,mouseY));
 }
 
